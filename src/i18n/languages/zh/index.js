@@ -1,0 +1,43 @@
+const zh = {
+  login_title: "账户登录",
+  account: "登录账号",
+  account_require: "请输入账号",
+  account_placeholder: "请输入用户名",
+  password: "登录密码",
+  password_require: "请输入密码",
+  login: "登  录",
+
+  axios_return_200: "服务器成功返回请求的数据。",
+  axios_return_201: "新建或修改数据成功。",
+  axios_return_202: "一个请求已经进入后台排队（异步任务）。",
+  axios_return_204: "删除数据成功。",
+  axios_return_400: "发出的请求有错误，服务器没有进行新建或修改数据的操作。",
+  axios_return_401: "用户没有权限（令牌、用户名、密码错误）。",
+  axios_return_403: "用户得到授权，但是访问是被禁止的。",
+  axios_return_404: "发出的请求针对的是不存在的记录，服务器没有进行操作。",
+  axios_return_406: "请求的格式不可得。",
+  axios_return_410: "请求的资源被永久删除，且不会再得到的。",
+  axios_return_422: "当创建一个对象时，发生一个验证错误。",
+  axios_return_500: "服务器发生错误，请检查服务器。",
+  axios_return_502: "网关错误。",
+  axios_return_503: "服务不可用，服务器暂时过载或维护。",
+  axios_return_504: "网关超时。",
+
+  axios_error_message_operate_fail: "操作失败",
+  axios_error_message_request_abnormal: "请求异常",
+  axios_error_message_session_expiration: "会话过期",
+  axios_error_message_operate_session: "您的操作会话已过期",
+  axios_error_message_permission_error: "权限错误",
+  axios_error_message_no_permission: "您没有权限执行该操作",
+  axios_error_message_request_error: "请求错误",
+  axios_error_message_request_no_exist: "请求服务不存在",
+  axios_error_message_server_error: "服务请求错误",
+  axios_error_message_network_error: "网络错误",
+  axios_error_message_server_deal_fail: "服务处理失败",
+  axios_error_message_later_retry: "服务错误，请稍后再试",
+
+  test_message: '这是About页面',
+  tips_error_menus: "一条提示信息",
+}
+
+export default zh;
